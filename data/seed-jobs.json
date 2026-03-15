@@ -1,0 +1,20 @@
+[
+  {
+    "id": "seed-job-001",
+    "title": "AI Evaluator",
+    "company": "Anthropic",
+    "url": null,
+    "description": "About the Role\n\nWe are looking for an AI Evaluator to join our RLHF and model quality team. In this role, you will assess AI-generated outputs for quality, accuracy, helpfulness, and safety. You will work closely with researchers and engineers to define rubrics, run evaluations, and contribute to the feedback loops that improve Claude.\n\nThis is a highly analytical role requiring careful judgment, attention to detail, and the ability to articulate nuanced quality assessments in writing.\n\nResponsibilities\n\n- Evaluate AI outputs across a wide range of tasks including coding, reasoning, writing, and instruction following\n- Develop and apply scoring rubrics for quality, accuracy, and safety\n- Write clear, structured feedback explaining evaluation rationale\n- Identify patterns in model failures and surface insights to research teams\n- Contribute to internal documentation and evaluation tooling\n- Collaborate with cross-functional teams including researchers, PMs, and policy staff\n\nRequired Qualifications\n\n- Strong analytical thinking and written communication skills\n- Ability to evaluate complex, multi-step AI responses with consistency\n- Comfort with ambiguity and evolving evaluation criteria\n- Experience working across multiple languages or domains is a plus\n- Some familiarity with LLMs, either as a user or practitioner\n\nNice to Have\n\n- Background in linguistics, logic, philosophy, or technical writing\n- Experience with evaluation frameworks or data labeling\n- Exposure to software development or data pipelines\n\nWe are a remote-friendly team and welcome candidates from EU time zones.",
+    "createdAt": "2024-01-15T10:00:00.000Z",
+    "matchScore": null
+  },
+  {
+    "id": "seed-job-002",
+    "title": "Product Operations Associate",
+    "company": "Linear",
+    "url": null,
+    "description": "About Linear\n\nLinear builds the tools that high-performing software teams use to plan, track, and ship. We are a small team that moves fast and values clarity, craft, and deep work.\n\nThe Role\n\nWe are hiring a Product Operations Associate to help us scale our internal processes, support product launches, and bridge the gap between our product, engineering, and go-to-market teams.\n\nThis is a generalist role for someone who is organized, proactive, and comfortable operating in ambiguous, fast-moving environments. You will work directly with the product and operations leadership to build workflows, synthesize user feedback, and ensure smooth execution across teams.\n\nWhat You'll Do\n\n- Support product launches by coordinating cross-functional workstreams\n- Gather, organize, and synthesize customer and user feedback\n- Build and maintain internal documentation, trackers, and process tools\n- Identify operational inefficiencies and propose structured improvements\n- Act as a connector between product, engineering, support, and marketing\n- Run reporting and analysis on product metrics and user behavior\n\nWhat We're Looking For\n\n- 1–3 years of experience in operations, product, or a similar analytical role\n- Strong written communication — you can write clearly under time pressure\n- Systems thinker who can turn ambiguous problems into structured plans\n- Comfortable with tools like Notion, Linear, SQL (basic), and spreadsheets\n- Proactive and low-ego — you do what needs doing\n\nBonus Points\n\n- Experience at a startup or fast-growing tech company\n- Familiarity with developer tools or B2B SaaS products\n- Multi-lingual (we have a global user base)\n\nWe are remote-first and hire globally.",
+    "createdAt": "2024-01-15T10:00:00.000Z",
+    "matchScore": null
+  }
+]

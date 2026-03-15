@@ -1,0 +1,84 @@
+{
+  "name": "Samuel Berlad",
+  "location": "Germany (remote)",
+  "workAuthorization": ["EU", "US"],
+  "summary": "Systems-oriented professional experienced in complex creative organizations and AI-assisted software development workflows. Currently building practical software tools and data pipelines, including a mobile barcode-scanning application integrating public APIs, automated scraping, and offline-first architecture. Interested in roles in AI evaluation, product operations, or technical program environments where analytical thinking and cross-disciplinary collaboration are valued.",
+  "experience": [
+    {
+      "title": "Founder",
+      "company": "Opera Shalem",
+      "location": "Remote",
+      "dates": "2021 – Present",
+      "bullets": [
+        "Founded digital-first cultural initiative exploring new production models for opera",
+        "Designed product and process workflows from scratch across a distributed team",
+        "Led strategic planning, stakeholder communication, and technical decision-making",
+        "Translated complex artistic and organizational requirements into structured operational plans"
+      ]
+    },
+    {
+      "title": "Opera Singer (Ensemble Member)",
+      "company": "Harztheater",
+      "location": "Quedlinburg, Germany",
+      "dates": "2019 – 2021",
+      "bullets": [
+        "Performed in full-season ensemble across opera, operetta, and musical productions",
+        "Collaborated with directors, conductors, and technical staff in high-pressure environments",
+        "Managed complex schedules and production demands across simultaneous projects"
+      ]
+    },
+    {
+      "title": "Founder & Chairman",
+      "company": "Junge Oper Rhein-Main",
+      "location": "Frankfurt, Germany",
+      "dates": "2015 – 2019",
+      "bullets": [
+        "Founded and led youth opera organization from zero to full productions",
+        "Recruited and managed volunteers, musicians, and administrative staff",
+        "Secured funding, negotiated venue contracts, and oversaw budgets",
+        "Produced multiple opera stagings with full cast, orchestra, and staging"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Kosher Scanner App",
+      "link": null,
+      "description": "Mobile barcode-scanning app with public API integration and offline-first architecture",
+      "bullets": [
+        "Built data pipeline integrating public product databases and custom scraping",
+        "Implemented offline-first architecture for reliable low-connectivity use",
+        "Designed full stack from API ingestion to mobile UI"
+      ]
+    },
+    {
+      "name": "Personal Website",
+      "link": "https://samuelberlad.com",
+      "description": "Personal portfolio and writing platform",
+      "bullets": [
+        "Designed and built using modern web technologies"
+      ]
+    },
+    {
+      "name": "Opera Shalem Website",
+      "link": "https://operashalem.com",
+      "description": "Public website for Opera Shalem initiative",
+      "bullets": [
+        "Designed and launched production-ready website for cultural organization"
+      ]
+    }
+  ],
+  "skills": {
+    "systems": ["Linux", "macOS", "Git", "GitHub"],
+    "ai": ["OpenAI API", "Claude API", "LLM prompt engineering", "AI-assisted development"],
+    "technical": ["TypeScript", "Python", "Next.js", "React", "Node.js", "REST APIs", "SQL"]
+  },
+  "education": [],
+  "languages": [
+    { "language": "German", "proficiency": "Native" },
+    { "language": "English", "proficiency": "Native" },
+    { "language": "Hebrew", "proficiency": "Fluent" },
+    { "language": "French", "proficiency": "Professional working proficiency" },
+    { "language": "Italian", "proficiency": "Conversational" }
+  ]
+}
