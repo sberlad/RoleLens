@@ -1,3 +1,5 @@
+"use client";
+
 interface ErrorMessageProps {
   message: string;
   onDismiss?: () => void;

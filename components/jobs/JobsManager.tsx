@@ -56,8 +56,16 @@ export default function JobsManager({ initialJobs }: JobsManagerProps) {
 
   async function handleDelete(id: string) {
     if (!confirm("Delete this job?")) return;
-    await fetch(`/api/jobs/${id}`, { method: "DELETE" });
-    setJobs((prev) => prev.filter((j) => j.id !== id));
+    try {
+      const res = await fetch(`/api/jobs/${id}`, { method: "DELETE" });
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.error ?? "Failed to delete job");
+      }
+      setJobs((prev) => prev.filter((j) => j.id !== id));
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : "Failed to delete job");
+    }
   }
 
   return (

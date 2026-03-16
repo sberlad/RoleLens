@@ -19,10 +19,9 @@ describe("formatDate", () => {
     expect(result).toContain("2024");
   });
 
-  it("returns the input string if it cannot be parsed", () => {
-    const result = formatDate("not-a-date");
-    // Invalid Date results in "Invalid Date" — we just ensure it returns something
-    expect(typeof result).toBe("string");
+  it("returns the original string for unparseable input", () => {
+    expect(formatDate("not-a-date")).toBe("not-a-date");
+    expect(formatDate("")).toBe("");
   });
 });
 

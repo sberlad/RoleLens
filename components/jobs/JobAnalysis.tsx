@@ -43,7 +43,12 @@ export default function JobAnalysis({ job: initialJob, existingOutput }: JobAnal
       const res = await fetch(`/api/jobs/${job.id}/tailor`, { method: "POST" });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Tailoring failed");
-      setOutput((prev) => ({ ...prev, jobId: job.id, tailoredCV: data.tailoredCV, generatedAt: new Date().toISOString() }));
+      setOutput((prev) => ({
+        jobId: job.id,
+        tailoredCV: data.tailoredCV,
+        coverLetter: prev?.coverLetter,
+        generatedAt: new Date().toISOString(),
+      }));
     } catch (err: unknown) {
       setError(err instanceof Error ? err.message : "CV tailoring failed");
     } finally {
@@ -58,7 +63,12 @@ export default function JobAnalysis({ job: initialJob, existingOutput }: JobAnal
       const res = await fetch(`/api/jobs/${job.id}/cover-letter`, { method: "POST" });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Cover letter generation failed");
-      setOutput((prev) => ({ ...prev, jobId: job.id, coverLetter: data.coverLetter, generatedAt: new Date().toISOString() }));
+      setOutput((prev) => ({
+        jobId: job.id,
+        tailoredCV: prev?.tailoredCV,
+        coverLetter: data.coverLetter,
+        generatedAt: new Date().toISOString(),
+      }));
     } catch (err: unknown) {
       setError(err instanceof Error ? err.message : "Cover letter generation failed");
     } finally {
